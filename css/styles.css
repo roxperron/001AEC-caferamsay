@@ -1,0 +1,352 @@
+/* Sedgwick Ave*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+/* Manrope*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #F4F3EE;
+	font-family: "Manrope", serif;
+	color: #89A198
+}
+
+header {
+	width: 100%;
+	margin: auto;
+	background-color: #89A198;
+}
+
+.container {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+
+
+
+.navFlex {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: "Sedgwick Ave", serif;
+	color: #F4F3EE;
+	font-style: normal;
+	font-size: 1.5rem;
+	width: 100%;
+}
+
+.navFlex li {
+	display: inline-block;
+	padding: 5px;
+	margin: 0 5px;
+	color: #F4F3EE;
+}
+
+a {
+	text-decoration: none;
+	color: #F4F3EE;
+}
+
+a:hover {
+	color: #4a4736;
+	text-decoration: underline;
+}
+
+p {
+	line-height: 25px;
+
+}
+
+.flex-acceuil {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+
+}
+
+.bannière {
+	display: block;
+	justify-content: center;
+	align-content: center;
+	background-image: url("../img/coffeeshop_2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	border: 2px solid #7c7e68;
+	padding: 300px;
+	color: #F4F3EE;
+	font-family: "Sedgwick Ave", serif;
+	font-weight: bolder;
+	font-size: 3.5rem;
+	width: 100%;
+}
+
+.btnmain {
+	color: #F4F3EE;
+	background-color: #7c7e68;
+	border-radius: 15px;
+	border: 1px thin #323b3a;
+	padding: 30px;
+	text-decoration: none;
+	font-family: "Sedgwick Ave", serif;
+}
+
+.quisommesnous{
+	background-color: #857364;
+	color: #F4F3EE;
+	margin: auto;
+	padding: 30px;
+	font-family: "Manrope", serif;
+}
+
+.quisommesnousflex {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.videocafe {
+	width: 50%;
+}
+
+
+
+.headergeneral {
+	font-family: "Sedgwick Ave", serif;
+	color: #89A198;
+	margin: 25px;
+}
+
+.flex-card {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.card1 {
+	border: 1px solid #F4F3EE;
+	text-align: center;
+	background-color: #7c7e68;
+	border: 5px solid #89A198;
+	box-shadow: 2px 6px 10px #7c7e68;
+	color: #F4F3EE;
+	font-family: "Manrope", serif;
+	padding: 10px;
+	width: 30%;
+}
+
+
+
+.card2 {
+	border: 1px solid #F4F3EE;
+	text-align: center;
+	background-color: #857364;
+	border: 5px solid #89A198;
+	box-shadow: 2px 6px 10px #857364;
+	color: #F4F3EE;
+	font-family: "Manrope", serif;
+	padding: 10px;
+	width: 30%;
+}
+
+.card3 {
+	border: 1px solid #F4F3EE;
+	text-align: center;
+	background-color: #4a4736;
+	border: 5px solid #89A198;
+	box-shadow: 2px 6px 10px #4a4736;
+	color: #F4F3EE;
+	font-family: "Manrope", serif;
+	padding: 10px;
+	width: 30%;
+}
+
+.imgcard {
+	width: 100%;
+}
+
+.btncard {
+	color: #F4F3EE;
+	background-color: #89A198;
+	border-radius: 15px;
+	border: 1px thin #F4F3EE;
+	padding: 10px;
+	text-decoration: none;
+	font-family: "Sedgwick Ave", serif;
+}
+
+
+.btncard:hover {
+	color: #4a4736;
+}
+
+
+
+.listeclients {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.listeclients li {
+	display: inline-block;
+	border: 30px;
+	font-family: "Manrope", serif;
+	color: #89A198;
+	text-align: center;
+	padding: 20px;
+
+}
+
+
+
+.imgclients {
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+
+.flex-containerfiches {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+
+aside {
+	width: 33%;
+	text-align: center;
+
+}
+
+.cardflex-fiches {
+	display: flex;
+	flex-direction: column;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	padding: 30px;
+	width: 100%;
+}
+
+.flex-article {
+	display: flex;
+	align-items: stretch;
+	border-top: 1px solid #89A198;
+	margin-top: 20px;
+	padding: 10px;
+	width: 100%;
+}
+
+
+.texte-article {
+	margin-left: 20px;
+	text-align: left;
+	width: 66%;
+}
+
+.imgblogue {
+
+	width: 100%;
+}
+
+.tableauxprix {
+	display: flex;
+	justify-content: center;
+}
+
+table {
+	text-align: center;
+	border-collapse: collapse;
+	font-family: "Manrope", serif;
+	width: 100%;
+	margin-top: 150px;
+	margin-bottom: 350px;
+}
+
+td,
+th {
+	border: 1px solid #F4F3EE;
+	padding: 20px 20px;
+}
+
+th {
+	background-color: #7c7e68;
+	color: #F4F3EE;
+	font-size: large;
+
+}
+
+
+td {
+	background-color: #4a4736;
+	color: #F4F3EE;
+	font-size: medium;
+}
+
+.emptyth {
+	background-color:#F4F3EE;
+	width: 10%;
+}
+
+.forfaitth {
+	width: 30%;
+}
+
+.fontprix {
+	font-size: x-large;
+	font-weight: bold;
+}
+
+.contact {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 20px 20px;
+	font-family: "Sedgwick Ave", serif;
+	color: #89A198;
+}
+
+.acontact {
+	color: #F4F3EE;
+	font-style: normal;
+	font-family: "Sedgwick Ave", serif;
+	border: 1px solid #89A198;
+	background-color: #89a198;
+	padding: 5px;
+	margin-left: 15px;
+	border-radius: 5px;
+}
+
+
+.flex-nousjoindre {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	padding-top: 100px;
+	padding-bottom: 260px;
+}
+
+
+
+.flex-footer {
+	display: flex;
+	width: 100%;
+}
+
+
+footer {
+	display: inline-block;
+	justify-content: space-around;
+	width: 100%;
+	padding: 1rem;
+	background-color: #89A198;
+	color: #F4F3EE;
+	font-family: "Manrope", serif;
+}
